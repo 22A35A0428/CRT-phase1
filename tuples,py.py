@@ -1,0 +1,10 @@
+tuple=("narasimha",11,22,"me")
+print(tuple)
+print(type(tuple))
+tuple=tuple+("hi",)
+tuple=tuple+("m",1,3)
+print(tuple)
+for i in range(0,5):
+    n=int(int(input("enter")))
+    tuple=tuple+(n,)
+print(tuple[4])
